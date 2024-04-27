@@ -1,0 +1,27 @@
+H2{
+    color: darkgreen;
+}
+h1{
+    color: darkolivegreen;
+    background-color: darkseagreen;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+p{
+    color: lightslategray;
+}
+
+.destacados{
+    color: darkslategrey;
+   font-family: arial;
+    font-size: 20px;
+}
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    border: 2px solid black;
+    padding: 15px;
+
+}
