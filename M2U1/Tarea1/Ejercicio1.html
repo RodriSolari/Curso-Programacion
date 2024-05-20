@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+</head>
+
+<body>
+    <h3>Agrandar Cuadrado</h3>
+    <div class="boton Agrandar">
+    </div>
+    <p>
+        <button class="boton Agrandar" id="rojo"></button>
+        &nbsp;
+        <button class="boton Agrandar" id="verde"></button>
+        &nbsp;
+        <button class="boton Agrandar" id="azul"></button>
+    </p>
+
+    <script>
+        // CSS
+        const boton = document.getElementsByClassName('boton')[0];
+        const rojo = document.getElementById('rojo')
+        rojo.style.backgroundColor = 'red'
+        const verde = document.getElementById('verde');
+        verde.style.backgroundColor = 'green'
+        const azul = document.getElementById('azul');
+        azul.style.backgroundColor = 'blue'
+
+
+        rojo.addEventListener('click', function () {
+            boton.classList.add('rojo');
+        });
+
+        verde.addEventListener('click', function () {
+            boton.classList.add('verde');
+        });
+
+        azul.addEventListener('click', function () {
+            boton.classList.add('azul');
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.boton.rojo {
+    padding: 1000px 1000px;
+    font-size: 100px;
+    border-radius: 0px;
+    color: red;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.boton.rojo {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.boton.rojo {
+    background: red;
+}
+
+
+.boton.verde {
+    padding: 1000px 1000px;
+    font-size: 100px;
+    border-radius: 0px;
+    color: green;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.boton.verde {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.boton.verde {
+    background: green;
+}
+
+.boton.azul {
+    padding: 1000px 1000px;
+    font-size: 100px;
+    border-radius: 0px;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.boton.azul {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.boton.azul {
+    background: blue;
+}

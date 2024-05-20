@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de caracteres</title>
+
+</head>
+
+<body>
+
+    <div class="texto">
+        <textarea name="contador" id="contador" onkeyup="contarletras();" cols="30" rows="10">
+        </textarea>
+    </div>
+    <div class="respuesta">
+        <p>Tienes un total de 80 caracteres</p>
+        <p>Usaste: <div id="respuesta"></div>
+        </p>
+    </div>
+
+    <script>
+        
+        function contarletras() {
+            var total = 80;
+            setTimeout(function () {
+                var valor = document.getElementById('contador');
+                var respuesta = document.getElementById('respuesta');
+                var cantidad = valor.value.length;
+                document.getElementById('respuesta').innerHTML = cantidad;
+
+            });
+        }
+
+    </script>
+</body>
+
+</html>
